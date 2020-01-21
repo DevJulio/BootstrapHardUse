@@ -1,0 +1,135 @@
+body{
+    background: #EDEDED;
+    color: #a5a5a5;
+    right: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#usuario {
+    color: #a5a5a5;
+    text-align: right;
+  }
+#menu{
+   
+    left: 0;
+}
+#campos{
+    color: #4C5665;
+    font-family: Helvetica;
+}
+#botoes{
+    font-family: Helvetica;
+}
+#dash{
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/dash2.png");
+   
+}
+#dash:hover{
+    margin:0 auto;
+    background-image:url("../img/landing/Grupo 1202.png");
+    width:99px;
+    height:99px;
+    margin-bottom: 5%;
+}
+
+#igreja{
+
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/igreja2.png");
+   
+}
+#igreja:hover{
+   
+    margin:0 auto;
+    background-image:url("../img/landing/Grupo\ 3922.png");
+    width:99px;
+    height:99px;
+    margin-bottom: 5%;
+}
+#vidas{
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/vidas2.png");
+   
+}
+#vidas:hover{
+    margin:0 auto;
+    background-image:url("../img/landing/Grupo\ 3872.png");
+    width:99px;
+    height:99px;
+    margin-bottom: 5%;
+}
+#transacoes{
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/Grupo\ 3892.png");
+   
+}
+#atividades{
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/atividades2.png");
+   
+}
+#atividades:hover{
+    margin:0 auto;
+    background-image:url("../img/landing/Grupo\ 390.png");
+    width:99px;
+    height:99px;
+    margin-bottom: 5%;
+}
+#celulas{
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/celulas.png");
+   
+}
+#celulas:hover{
+    margin:0 auto;
+    background-image:url("../img/landing/Grupo\ 391.png");
+    width:99px;
+    height:99px;
+    margin-bottom: 5%;
+}
+#relatorio{
+    margin:0 auto;
+    width:99px;
+    height:99px;
+    transition: background-image 0s ease-in-out;
+    margin-bottom: 5%;
+    background-image:url("../img/landing/relatorio.png");
+   
+}
+#relatorio:hover{
+    margin:0 auto;
+    background-image:url("../img/landing/Grupo\ 124.png");
+    width:99px;
+    height:99px;
+    margin-bottom: 5%;
+}
+.nav-link[data-toggle].collapsed:after {
+    content: "▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "▴";
+}
